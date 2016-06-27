@@ -1,23 +1,21 @@
-# Practica del Modulo de Desarrollo Web Seguro.
+# Tarea del Modulo de Desarrollo Web Seguro.
 
 ## Instrucciones
 
 Para poder ejecutar el proyecto es necesario tener instalado en el equipo de computo lo siguiente:
 
-1. Apache Maven
-2. Netbeans IDE 8.1
-3. JDK 1.8
+Apache Maven
+Netbeans IDE 8.1
+JDK 1.8
+Postgres
 
-Para poder correr el servidor solo se requiere el siguiente comando:
+Datos de la base de datos
+usuario:pgadmin10
+password:pagadmin123
 
-`mvn exec:java -Dexec.mainClass="mx.uach.practicaseguridad.*"`
+Base de datos: curso	
 
-Donde:
 
-mvn: Es el comando para ejecutar Maven.
-exec:java -Dexec.mainClass: Especifica la clase que contiene el main en el proyecto.
-
-Ejemplo:
-
-`mvn exec:java -Dexec.mainClass="mx.uach.practicaseguridad.Login"`
+Comando par poder ejecutar la tarea
+mvn exec:java -Dexec.mainClass="mx.uach.practicaseguridad.Login"
 # cursoseguridad_tarea
