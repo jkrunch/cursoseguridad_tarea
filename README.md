@@ -10,12 +10,16 @@ JDK 1.8
 Postgres
 
 Datos de la base de datos
+
 usuario:pgadmin10
+
 password:pagadmin123
+
 
 Base de datos: curso	
 
 
 Comando par poder ejecutar la tarea
-mvn exec:java -Dexec.mainClass="mx.uach.practicaseguridad.Login"
+
+mvn exec:java -Dexec.mainClass="ugto.AppDemo.Login"
 # cursoseguridad_tarea
